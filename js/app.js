@@ -62,6 +62,7 @@ $(document).ready(function(){
 			$(this).find($ready).show();
 			$(this).find($throwing).hide();
 			$(this).find($cool).hide();
+			$(this).find($still).hide();
 		}
 	});
 
@@ -80,6 +81,8 @@ $(document).ready(function(){
 			ryuPoseOff = true;
 			$(this).find($cool).hide();
 			$(this).find($ready).show();
+			$(this).find($still).hide();
+			$(this).find($throwing).hide();
 		}
 	});
 });
